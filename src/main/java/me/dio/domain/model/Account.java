@@ -20,10 +20,10 @@ public class Account {
 
     private String agency;
     
-    @Column(scale = 13, precision = 2) // define que a coluna terá 2 casas decimais e um total de 13 numeros (11 interiros e 2 decimais)
+    @Column(scale = 2, precision = 13) // define que a coluna terá 2 casas decimais e um total de 13 numeros (11 interiros e 2 decimais)
     private BigDecimal balance;
 
-    @Column(name = "additional_limit", scale = 13, precision = 2) // alterado nome da coluna, pois a palavra limit, pode ser uma palavra reservada
+    @Column(name = "additional_limit", scale = 2, precision = 13) // alterado nome da coluna, pois a palavra limit, pode ser uma palavra reservada
     private BigDecimal limit;
 
     public Long getId() {
