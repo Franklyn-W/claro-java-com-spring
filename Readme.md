@@ -3,7 +3,7 @@ Java RESTful API criada no bootcamp Claro - Java com Spring Boot
 Criação de uma API Rest do zero usando Java 21 e Spring Boot, para persistencia dos dados, durante o desenvolvimento sera usado o sistema H2 e para "produção" será usado o SGBD Postgrees, ambos com o auxilio do Spring JPA. Para a geração de documentação será usado o Swagger.
 
 
-## Modelo de arquivo JSON que sera retornado pela API
+## Modelo de abstração do dominio
 
 ```JSON
 {
